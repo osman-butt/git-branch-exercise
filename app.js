@@ -9,4 +9,9 @@ function initApp() {
 
 function secondFunction() {
   console.log("Anden funktion!");
+  thirdFunction();
+}
+
+function thirdFunction() {
+  console.log("Tredje funktion!");
 }
