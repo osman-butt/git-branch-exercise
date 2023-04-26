@@ -14,4 +14,9 @@ function secondFunction() {
 
 function thirdFunction() {
   console.log("Tredje funktion!");
+  fourthFunction();
+}
+
+function fourthFunction() {
+  console.log("Fjerde funktion!");
 }
